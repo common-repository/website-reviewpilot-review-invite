@@ -1,0 +1,92 @@
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+.jRatingAverage {
+	background-color:#58ab4c;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+.jRatingColor {
+	background-color:#58ab4c; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+
+/** Div containing the stars **/
+.jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('icons/bg_jRatingInfos.png') no-repeat;
+	color:			#000000;
+	display:		none;
+	width:			91px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:5px;
+}
+	p.jRatingInfos span.maxRate {
+		color:#000000;
+		font-size:14px;
+	}
+	
+.new-review-left {
+    display: inline-block;
+    max-width: 420px;
+    vertical-align: top;
+}
+
+.new-review-left p {
+    font: 14px "MyriadPro-Regular";
+}
+
+.new-review-right {
+    float: right;
+    margin-right: 20px;
+    max-width: 190px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.new-review-blk .expand.openAd {
+    background: #fff url("../images/toggle-arw1.png") no-repeat scroll center center;
+}
+.new-review-blk .expand {
+    background: #4dae43 url("../images/toggle-arw1_hover.png") no-repeat scroll center center;
+    border: 1px solid #4dae43;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48px;
+}
+
+.drop-review {
+    display: inline-block;
+    margin: 0 0 12px;
+    min-width: 233px;
+    vertical-align: top;
+	width:140px;
+}
+
+.review-start1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.social_links a{ float:left; width:20px; }
